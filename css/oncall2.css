@@ -1,0 +1,108 @@
+.btn {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+	display: inline-block;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: #1d7484;
+	color: #f9f9f9;
+	border-radius: 1px;
+	border: 1px solid #1d7484;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.btn > a{
+	color: #f9f9f9;
+	text-decoration: none;
+}
+
+.bimg {
+	background: none;
+	border: none;
+	width: 24px;
+	height: 24px;
+	padding: 0;
+	margin: 0;
+}
+
+.bimg >img {
+	margin: 0;
+}
+
+.call-order {
+	width: 5em;
+}
+
+.contact-info {
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+	min-height: 2em;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.error-msg {
+	color: red;
+}
+
+.header-links {
+	float: left;
+}
+
+.header-search {
+	float: right;
+}
+
+.inactive {
+	background-color: lightgrey;
+}
+
+.mandatory {
+	border: thin red solid;
+}
+
+.mandatory-text {
+	color: red;
+}
+
+.text-tag {
+	width: 5em;
+}
+
+button, input, optgroup, select, textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+table {
+	width: 100%;
+	white-space: nowrap;
+}
+
+dialog {
+	position: absolute;
+	top: +100px;
+}

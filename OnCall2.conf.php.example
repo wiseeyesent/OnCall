@@ -1,0 +1,8 @@
+<?php
+namespace WiseEyesEnt\OnCall2;
+
+define('DEBUG', 0);
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'name');
+define('DB_USER', 'user');
+define('DB_PASS', 'password');
